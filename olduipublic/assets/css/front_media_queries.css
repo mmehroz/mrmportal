@@ -1,0 +1,149 @@
+@media(max-width:1200px){
+	.nav_bar{
+		width: 90%;
+	}
+	.checkout_section{
+		width: 90%;
+	}
+}
+@media(max-width:1020px){
+
+	.nav_bar{
+		width: 95%;
+	}
+	.checkout_section{
+		width: 95%;
+	}
+	.checkout_fields,.checkout_cart{
+		width: 50%;
+	}
+	.cart_fixed{
+		width: 35%;
+	}
+	.products_main{
+		width: 65%;
+	}
+	.categories_bar{
+		width: 65%;
+	}
+}
+
+
+@media(max-width:800px){
+
+	.nav_bar{
+		width: 95%;
+	}
+
+}
+
+@media(max-width:767px){
+.delivery-zones-table{
+font-size:12px;
+}
+	.nav{
+		display: none;
+		background: rgba(0,0,0,0.8);
+		padding:0;
+	}
+	.nav ul{
+		width: 100%;
+		padding-left: 15px;
+		margin: 0;
+
+		border:none;
+	}
+	.nav ul li{
+		display: block;
+		margin: 12px 0;
+		font-size: 14px;
+	}
+	.nav_btn_div{
+		display: block;
+	}
+	.nav_bar{
+		width:100%;
+	}
+
+.categories_bar{
+	width: 100%;
+}
+.categories_main_div{
+	width:max-content; 
+} 
+.products_main{
+	width: 100%;
+}
+.cart_fixed{
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100% !important;
+	z-index: 1000;
+	display: none;
+}
+.cart_mobile{
+	display: block;
+}
+.close_cart{
+	display: flex !important;
+}
+.products_categ_wise h2{
+	font-size: 16px;
+}
+.product_description{
+	font-size: 12px;
+}
+.product_price{
+	font-size: 13px;
+}
+.add_btn{
+	padding: 4px;
+}
+footer{
+	padding-bottom: 50px;
+}
+.checkout_cart,.checkout_fields{
+	width: 100%;
+}
+.checkout_cart{
+	background-color: white;
+	padding: 0;
+	height: 100%;
+	z-index: 300;
+	margin-bottom: 10px;
+	box-shadow: none;
+	border:none;
+}
+.checkout_cart_indiv{
+	border: none;
+	box-shadow: none;
+	padding: 0;
+}
+.checkout_cart_table {
+	font-size: 10px !important;
+}
+.checkout_cart_table thead,.checkout_cart_table tbody tr td{
+	font-size: 10px;
+}
+.checkout_cart_table tbody tr td:last-child{
+	padding: 12px 5px;
+}
+.checkout_fields{
+	padding: 10px 20px;
+}
+.checkout_cart_indiv h4{
+	text-align: center;
+}
+.back_to_cart{
+	display: none;
+}
+.back_to_cart_mobile{
+	display: block;
+}
+/*.checkout_fields,.checkout_cart{
+	padding: 5px 5px;
+}*/
+
+
+}
